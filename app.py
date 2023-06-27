@@ -1,5 +1,3 @@
-#-*- coding utf-8 -*-
-# Created By peterlymo | malwarepeter 12/06/2023
 from flask import Flask, session
 from flask import render_template
 from flask import request

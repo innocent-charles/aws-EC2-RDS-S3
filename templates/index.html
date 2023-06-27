@@ -6,7 +6,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>EarthQuake</title>
+  <title>EarthQuake Deployed AWS</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -25,7 +25,7 @@
 
 <body>
 
-  <nav class="nav-extended nav-full-header indigo lighten-2">
+  <nav class="nav-extended nav-full-header black lighten-2">
 
     <div class="nav-wrapper container">
       <a href="/" class="brand-logo"><i class="material-icons">terrain</i>EarthQuake</a>
@@ -173,10 +173,10 @@
     <div class="container">
       <div class="post row">
         <div class="col l4 m6 s12 post-item post-filter all posting-card" style="position: absolute; left: 0px; top: 0px;">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
+          <div class="card-panel teal lighten-2">
+            <div class="card-content white-text ">
               <span class="card-title">Write</span>
-              <p>Please leave your situation.</p>
+              <p>Please write something here</p>
             </div>
             <div class="card-action">
               {% if not session.user_name %}
@@ -209,6 +209,32 @@
       </div>
     </div>
   </div>
+
+  <footer class="page-footer black lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">AWS-LB</h5>
+          <p class="grey-text text-lighten-4">Deployed archicture 2 for cloud computing lab assignment</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Sign in</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Sign out</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Write</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Read</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2023 Copyright Innocent Charles
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
   <script>
   $(document).ready(function(){
 
@@ -341,6 +367,7 @@
     });
 
   });
+
 
 
   </script>
