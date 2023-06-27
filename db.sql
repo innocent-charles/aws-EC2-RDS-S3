@@ -23,7 +23,7 @@ CREATE TABLE `users` (
 
 
 INSERT INTO `users` (`id`, `user_name`, `user_email`, `user_password`) VALUES
-(1, 'lymo', 'peterlymo@gmail.com', 'pbkdf2:sha256:600000$GCrdbe8A7r5hlmL6$7e488c570e4a3e378cb884c7076ab08067469280aeab6a2d6570b6e1f2239888');
+(1, 'Demo', 'demo@gmail.com', 'pbkdf2:sha256:600000$GCrdbe8A7r5hlmL6$7e488c570e4a3e378cb884c7076ab08067469280aeab6a2d6570b6e1f2239888');
 
 ALTER TABLE `posts`
   ADD PRIMARY KEY (`id`);
